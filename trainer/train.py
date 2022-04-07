@@ -10,6 +10,9 @@ import pandas as pd
 import tensorflow as tf
 from sklearn.model_selection import train_test_split
 
+print("Numpy version: ", np.__version__)
+print("Pandas version: ", pd.__version__)
+print("Tensoflow version: ", tf.__version__)
 
 # ------------------------ User-defined functions -----------------------------
 
